@@ -1,0 +1,248 @@
+# depslib dependency file v1.0
+1249031779 source:d:\asuro\asuro32\asuro32\funktionen.c
+	<avr/io.h>
+	"Settings.h"
+	"functions.h"
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdarg.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/sleep.h>
+	"Timer1.h"
+	"help.h"
+
+1249646616 source:d:\asuro\asuro32\asuro32\main.c
+	<avr/interrupt.h>
+	<avr/io.h>
+	<avr/sleep.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include\Settings.h"
+	"include\dogm-graphic.h"
+
+1249041779 d:\asuro\asuro32\asuro32\functions.h
+
+1243944296 d:\asuro\asuro32\asuro32\funktionen.c
+	<avr/io.h>
+	"Settings.h"
+	"functions.h"
+
+1248960145 d:\asuro\asuro32\asuro32\settings.h
+
+1245393371 d:\asuro\asuro32\asuro32\uart232.h
+
+1249284029 source:d:\asuro\asuro32\asuro32\uart.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/uart.h"
+	"include\Settings.h"
+
+1246453010 d:\asuro\lib\timer1.h
+
+1248954775 d:\asuro\asuro32\asuro32\timer1.h
+
+1249280948 source:d:\asuro\asuro32\asuro32\timer1.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdio.h>
+	<stdlib.h>
+	"include/Timer1.h"
+	"include/leds.h"
+	"include/Settings.h"
+
+1246624169 d:\asuro\asuro32\asuro32\help.h
+
+1248698263 source:d:\asuro\asuro32\asuro32\songs.c
+
+1249281253 source:d:\asuro\asuro32\asuro32\debounce.c
+	<stdint.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"include/debounce.h"
+
+1249041778 d:\asuro\asuro32\asuro32\debounce.h
+
+1249625107 source:d:\asuro\asuro32\asuro32\types.c
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/types.h"
+
+1249040864 d:\asuro\asuro32\asuro32\types.h
+
+1249280137 source:d:\asuro\asuro32\asuro32\motor.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdarg.h>
+	<stdint.h>
+	"include/taster.h"
+	"include/Motor.h"
+	"include/Settings.h"
+
+1249280518 d:\asuro\asuro32\asuro32\include\taster.h
+
+1249280090 d:\asuro\asuro32\asuro32\include\motor.h
+
+1249625350 d:\asuro\asuro32\asuro32\include\settings.h
+
+1249042847 d:\asuro\asuro32\asuro32\include\timer1.h
+
+1249280177 source:d:\asuro\asuro32\asuro32\adc.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/adc.h"
+
+1249046260 d:\asuro\asuro32\asuro32\include\adc.h
+
+1249280253 source:d:\asuro\asuro32\asuro32\leds.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/leds.h"
+	"include/Settings.h"
+
+1249046280 d:\asuro\asuro32\asuro32\include\leds.h
+
+1249290809 source:d:\asuro\asuro32\asuro32\linienfolger.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/adc.h"
+	"include/std.h"
+	"include/Motor.h"
+	"include/linienfolger.h"
+	"include/uart.h"
+
+1249282551 d:\asuro\asuro32\asuro32\include\linienfolger.h
+
+1249041778 d:\asuro\asuro32\asuro32\include\debounce.h
+
+1249280762 source:d:\asuro\asuro32\asuro32\sound.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/Motor.h"
+	"include/sound.h"
+	"include/Settings.h"
+
+1249044181 d:\asuro\asuro32\asuro32\include\sound.h
+
+1249280762 d:\asuro\asuro32\asuro32\include\std.h
+
+1249285926 source:d:\asuro\asuro32\asuro32\std.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include\std.h"
+	"include\types.h"
+
+1249281174 source:d:\asuro\asuro32\asuro32\taster.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/taster.h"
+	"include/Settings.h"
+	"include/adc.h"
+
+1249042839 d:\asuro\asuro32\asuro32\include\types.h
+
+1249303770 source:d:\asuro\asuro32\asuro32\ultrasonic.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/ultrasonic.h"
+	"include/Settings.h"
+	"include/leds.h"
+	"include/Motor.h"
+	"include/uart.h"
+
+1249292899 d:\asuro\asuro32\asuro32\include\ultrasonic.h
+
+1249283982 d:\asuro\asuro32\asuro32\include\uart.h
+
+1249465393 source:d:\asuro\asuro32\asuro32\rc5.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/signal.h>
+	"include/rc5.h"
+	"include\uart.h"
+
+1249456386 d:\asuro\asuro32\asuro32\include\rc5.h
+	<inttypes.h>
+
+1249475173 d:\asuro\asuro32\asuro32\include\main.h
+	<avr/interrupt.h>
+	<avr/io.h>
+	<stdlib.h>
+
+1249475617 source:d:\asuro\asuro32\asuro32\rc5n.c
+	"include/main.h"
+	"include/Settings.h"
+	"include/uart.h"
+
+1249638558 d:\asuro\asuro32\asuro32\include\spi.h
+
+1249624562 d:\asuro\asuro32\asuro32\include\touch.h
+
+1249647038 source:d:\asuro\asuro32\asuro32\spi.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	"include/Settings.h"
+	"include/spi.h"
+	<util/delay.h>
+
+1249625228 source:d:\asuro\asuro32\asuro32\touch.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/touch.h"
+	"include/adc.h"
+
+1249633637 d:\asuro\asuro32\asuro32\include\graphics.h
+	"driver_dogm128.h"
+	"font.h"
+
+1249645383 d:\asuro\asuro32\asuro32\include\driver_dogm128.h
+	<stdlib.h>
+
+1249646374 d:\asuro\asuro32\asuro32\include\font.h
+	<avr/io.h>
+	<avr/pgmspace.h>
+	"font.h"
+
+1249646974 source:d:\asuro\asuro32\asuro32\dogm-graphic.c
+	"include/dogm-graphic.h"
+	"include/Settings.h"
+	<util/delay.h>
+
+1249646660 d:\asuro\asuro32\asuro32\include\dogm-graphic.h
+	<avr/io.h>
+	<string.h>
+	<util/delay.h>
+	<avr/pgmspace.h>
+	"font.h"
+

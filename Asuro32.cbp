@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Asuro32" />
+		<Option pch_mode="2" />
+		<Option compiler="avrgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Asuro32.elf" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="avrgcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Asuro32.elf" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="avrgcc" />
+				<Compiler>
+					<Add option="-Os" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mmcu=atmega32" />
+			<Add option="-DF_CPU=8000000UL" />
+		</Compiler>
+		<Linker>
+			<Add option="-mmcu=atmega32" />
+			<Add option="-Wl,-Map=$(TARGET_OUTPUT_FILE).map,--cref" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="avr-objcopy -O ihex -R .eeprom -R .eesafe $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).hex" />
+			<Add after="avr-objcopy --no-change-warnings -j .eeprom --change-section-lma .eeprom=0 -O ihex $(TARGET_OUTPUT_FILE) $(TARGET_OUTPUT_FILE).eep.hex" />
+		</ExtraCommands>
+		<Unit filename="Motor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Timer1.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="debounce.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="dogm-graphic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include\Motor.h" />
+		<Unit filename="include\Settings.h" />
+		<Unit filename="include\Timer1.h" />
+		<Unit filename="include\adc.h" />
+		<Unit filename="include\debounce.h" />
+		<Unit filename="include\dogm-graphic.h" />
+		<Unit filename="include\font.h" />
+		<Unit filename="include\leds.h" />
+		<Unit filename="include\linienfolger.h" />
+		<Unit filename="include\main.h" />
+		<Unit filename="include\sound.h" />
+		<Unit filename="include\spi.h" />
+		<Unit filename="include\std.h" />
+		<Unit filename="include\taster.h" />
+		<Unit filename="include\touch.h" />
+		<Unit filename="include\types.h" />
+		<Unit filename="include\uart.h" />
+		<Unit filename="include\ultrasonic.h" />
+		<Unit filename="leds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="linienfolger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rc5n.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="std.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="taster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="touch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ultrasonic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
