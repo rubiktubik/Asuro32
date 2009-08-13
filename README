@@ -1,1 +1,8 @@
 Das ist Software zur Benutzung des Asuros mit dem Atmega32
+Bis jetzt funktionieren:
+
+ADC
+Sound mit den Motoren
+LEDs
+Motoren
+Linienfolger
