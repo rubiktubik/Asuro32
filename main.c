@@ -9,8 +9,6 @@
 #include <stdio.h>
 
 #include "include\Settings.h"
-#include "include\spi.h"
-#include "include\dogm-graphic.h"
 
 //Typen durch sizeof:   uint8 = 1Byte
 //                      uint16 = 2Byte
@@ -24,8 +22,7 @@ int main(void)
 /*~~~~~~~~~~~~~~~~*/
 
 
-spi_init2();
-lcd_init();
+
 
 
 /*~~~~~~~~~~~~~~~~*/

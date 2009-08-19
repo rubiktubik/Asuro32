@@ -36,23 +36,7 @@
 
 // function prototypes
 
-// SPI interface initializer
-void spiInit(void);
-
-// spiSendByte(u08 data) waits until the SPI interface is ready
-// and then sends a single byte over the SPI port.  This command
-// does not receive anything.
-void spiSendByte(uint8_t data);
-
-// spiTransferByte(u08 data) waits until the SPI interface is ready
-// and then sends a single byte over the SPI port.  The function also
-// returns the byte that was received during transmission.
-uint8_t spiTransferByte(uint8_t data);
-
-// spiTransferWord(u08 data) works just like spiTransferByte but
-// operates on a whole word (16-bits of data).
-uint16_t spiTransferWord(uint16_t data);
-
+void InitSpi();
 void spi_master_send_char (unsigned char c);
 #endif
-void spi_init2();
+
