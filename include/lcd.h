@@ -4,6 +4,5 @@
 void LcdInit();
 void LcdData(char Byte);
 void LcdBefehl(char Byte);
-void disp_send_frame();
-void disp_clear();
+void LcdSetPage(uint8_t Page);
 #endif
