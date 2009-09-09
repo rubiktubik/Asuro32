@@ -51,6 +51,7 @@ int main(void)
     ;
 
     return 0;
+    TextAusgabe("Hallo");
 }
 
 /*~~~~~~~~~~~~~~~~*/
