@@ -13,9 +13,6 @@
 	<File name="debounce.c" open="0" top="0" tabpos="2">
 		<Cursor position="1187" topLine="15" />
 	</File>
-	<File name="dogm-graphic.c" open="1" top="0" tabpos="4">
-		<Cursor position="4416" topLine="58" />
-	</File>
 	<File name="include\Motor.h" open="0" top="0" tabpos="10">
 		<Cursor position="309" topLine="0" />
 	</File>
@@ -25,11 +22,14 @@
 	<File name="include\adc.h" open="0" top="0" tabpos="9">
 		<Cursor position="348" topLine="0" />
 	</File>
-	<File name="include\dogm-graphic.h" open="1" top="0" tabpos="5">
+	<File name="include\dogm-graphic.h" open="0" top="0" tabpos="5">
 		<Cursor position="1363" topLine="48" />
 	</File>
-	<File name="include\font.h" open="1" top="0" tabpos="6">
+	<File name="include\font.h" open="0" top="0" tabpos="6">
 		<Cursor position="1655" topLine="27" />
+	</File>
+	<File name="include\lcd.h" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="include\leds.h" open="0" top="0" tabpos="13">
 		<Cursor position="350" topLine="0" />
@@ -43,8 +43,8 @@
 	<File name="include\sound.h" open="0" top="0" tabpos="0">
 		<Cursor position="396" topLine="234" />
 	</File>
-	<File name="include\spi.h" open="1" top="0" tabpos="2">
-		<Cursor position="2019" topLine="26" />
+	<File name="include\spi.h" open="0" top="0" tabpos="2">
+		<Cursor position="2019" topLine="30" />
 	</File>
 	<File name="include\touch.h" open="0" top="0" tabpos="0">
 		<Cursor position="353" topLine="0" />
@@ -58,14 +58,17 @@
 	<File name="include\ultrasonic.h" open="0" top="0" tabpos="10">
 		<Cursor position="514" topLine="0" />
 	</File>
+	<File name="lcd.c" open="1" top="1" tabpos="2">
+		<Cursor position="1332" topLine="70" />
+	</File>
 	<File name="leds.c" open="0" top="0" tabpos="3">
 		<Cursor position="2747" topLine="28" />
 	</File>
 	<File name="linienfolger.c" open="0" top="0" tabpos="16">
 		<Cursor position="3867" topLine="87" />
 	</File>
-	<File name="main.c" open="1" top="1" tabpos="1">
-		<Cursor position="496" topLine="10" />
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="689" topLine="40" />
 	</File>
 	<File name="rc5n.c" open="0" top="0" tabpos="7">
 		<Cursor position="1372" topLine="0" />
@@ -73,11 +76,8 @@
 	<File name="sound.c" open="0" top="0" tabpos="6">
 		<Cursor position="2917" topLine="78" />
 	</File>
-	<File name="spi.c" open="1" top="0" tabpos="3">
-		<Cursor position="3862" topLine="0" />
-	</File>
 	<File name="touch.c" open="0" top="0" tabpos="0">
-		<Cursor position="1223" topLine="18" />
+		<Cursor position="1075" topLine="8" />
 	</File>
 	<File name="types.c" open="0" top="0" tabpos="7">
 		<Cursor position="1191" topLine="7" />
