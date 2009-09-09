@@ -87,3 +87,7 @@ void LcdInit()
 	LcdBefehl(0xAF);
 }
 
+void LcdSetPage(uint8_t Page)
+{
+
+}

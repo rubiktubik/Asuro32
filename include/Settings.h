@@ -1,6 +1,6 @@
 #ifndef Settings_H
 #define Settings_H
-#endif
+
 
 /*Globale Variablen */
 uint16_t count72kHz;
@@ -85,3 +85,5 @@ uint16_t count72kHz;
 #endif
 
 #define sbi(reg,bit)	reg |= (BV(bit))
+
+#endif

@@ -246,3 +246,155 @@
 	<avr/pgmspace.h>
 	"font.h"
 
+1252501546 source:g:\portablegit-1.6.4-preview20090729\asuro32\motor.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdarg.h>
+	<stdint.h>
+	"include/taster.h"
+	"include/Motor.h"
+	"include/Settings.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\taster.h
+
+1252501546 g:\portablegit-1.6.4-preview20090729\asuro32\include\motor.h
+
+1252504044 g:\portablegit-1.6.4-preview20090729\asuro32\include\settings.h
+
+1252501546 source:g:\portablegit-1.6.4-preview20090729\asuro32\adc.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/adc.h"
+
+1252501546 g:\portablegit-1.6.4-preview20090729\asuro32\include\adc.h
+
+1252503610 source:g:\portablegit-1.6.4-preview20090729\asuro32\lcd.c
+	<avr\io.h>
+	"include\Settings.h"
+	<util\delay.h>
+	"include\lcd.h"
+	"include\spi.h"
+
+1252504678 g:\portablegit-1.6.4-preview20090729\asuro32\include\lcd.h
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\spi.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\leds.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/leds.h"
+	"include/Settings.h"
+
+1252501546 g:\portablegit-1.6.4-preview20090729\asuro32\include\leds.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\linienfolger.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/adc.h"
+	"include/std.h"
+	"include/Motor.h"
+	"include/linienfolger.h"
+	"include/uart.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\std.h
+
+1252501546 g:\portablegit-1.6.4-preview20090729\asuro32\include\linienfolger.h
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\uart.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\rc5n.c
+	"include/main.h"
+	"include/Settings.h"
+	"include/uart.h"
+
+1252501546 g:\portablegit-1.6.4-preview20090729\asuro32\include\main.h
+	<avr/interrupt.h>
+	<avr/io.h>
+	<stdlib.h>
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\sound.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/Motor.h"
+	"include/sound.h"
+	"include/Settings.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\sound.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\spi.c
+	<avr\io.h>
+	"include\Settings.h"
+	"include\spi.h"
+	<util\delay.h>
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\std.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include\std.h"
+	"include\types.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\types.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\taster.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/taster.h"
+	"include/Settings.h"
+	"include/adc.h"
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\touch.c
+	<avr/io.h>
+	<util/delay.h>
+	<stdint.h>
+	<stdio.h>
+	"include/Settings.h"
+	"include/touch.h"
+	"include/adc.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\touch.h
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\types.c
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/types.h"
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\uart.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdint.h>
+	<stdlib.h>
+	<stdio.h>
+	"include/uart.h"
+	"include\Settings.h"
+
+1252501548 source:g:\portablegit-1.6.4-preview20090729\asuro32\ultrasonic.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	<stdint.h>
+	"include/ultrasonic.h"
+	"include/Settings.h"
+	"include/leds.h"
+	"include/Motor.h"
+	"include/uart.h"
+
+1252501548 g:\portablegit-1.6.4-preview20090729\asuro32\include\ultrasonic.h
+
