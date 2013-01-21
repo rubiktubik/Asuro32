@@ -1,8 +1,10 @@
-Das ist Software zur Benutzung des Asuros mit dem Atmega32
-Bis jetzt funktionieren:
+This piece of Code enables to use a Atmel Atmega32 with the Asuro Robot:
+http://www.arexx.com/arexx.php?cmd=goto&cparam=p_asuro
+
+Working so far:
 
 ADC
-Sound mit den Motoren
+Making sound with motors :-)
 LEDs
-Motoren
-Linienfolger
+Motors
+Follow  a line
